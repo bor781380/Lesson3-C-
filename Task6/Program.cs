@@ -12,10 +12,12 @@ PrintArray(arr_int);
 
 void PrintArray(int[] arr_int)
 {
-    int i = 0;
-    while (i < size)
+    //int i = 0;
+    //while (i < size)
+    foreach(int e in arr_int)
     {
-        Console.Write($"{arr_int[i]} ");
-        i++;
+        Console.Write($"{e} ");
+        //Console.Write($"{arr_int[i]} ");
+        //i++;
     }
 }
